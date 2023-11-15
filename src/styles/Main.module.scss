@@ -1,0 +1,19 @@
+$padding: 0 18vw;
+$font_color: #777777;
+.nav_container {
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: $padding;
+    gap: 20px;
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: $font_color;
+        cursor: pointer;
+    }
+}
+.nav_act {
+    border-bottom: 4px solid $font_color;
+    padding-bottom: 5px;
+}
