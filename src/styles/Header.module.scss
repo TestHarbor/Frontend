@@ -2,7 +2,7 @@ $font_color: #777777;
 $search_color: #D9D9D9;
 
 .hd_container {
-    width: calc(100vw - 96px);
+    width: 100vw;
     justify-content: space-between;
     padding: 0 48px;
 }
@@ -30,7 +30,7 @@ $search_color: #D9D9D9;
         }
 
         img {
-            width: 50px;
+            width: 40px;
             cursor: pointer;
         }
     }
@@ -47,14 +47,15 @@ $search_color: #D9D9D9;
     padding: 10px;
 
     img {
-        width: 127px;
+        width: 100px;
     }
 }
 
 .nav_container {
-    margin: 0 20px;
+    width: 150px;
+    font-size: 20px;
     align-items: center;
-    gap: 3vw;
+    justify-content: space-between;
 
     p {
         color: $font_color;

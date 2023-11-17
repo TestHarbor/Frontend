@@ -15,6 +15,7 @@ const List: React.FC<ListProps> = ({ Data }) => {
     <div className={`flex_cloumn ${style.container}`}>
       {Data &&
         Data.map((item, index) => (
+          <div className="flex_row">
           <div key={`${index}`} 
           className={`flex_row ${style.item}`} 
           onClick={() => navigate(`/Detail/${item['ID']}`)}>
@@ -26,6 +27,7 @@ const List: React.FC<ListProps> = ({ Data }) => {
             <div>
               <p>{item["세부과목"]}</p>
             </div>
+          </div>
           </div>
         ))}
     </div>
