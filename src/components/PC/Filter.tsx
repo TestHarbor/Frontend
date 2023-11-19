@@ -1,6 +1,7 @@
+//import
 import React from "react";
 //style
-import style from "../styles/PDF.module.scss";
+import style from "../../styles/PDF.module.scss";
 
 interface Data {
   title: string;
@@ -30,7 +31,15 @@ const Table = () => {
       },
       {
         title: "세부 과목",
-        value: ["국어", "수학", "영어", "한국사", "과학탐구", "사회탐구", "직업탐구"],
+        value: [
+          "국어",
+          "수학",
+          "영어",
+          "한국사",
+          "과학탐구",
+          "사회탐구",
+          "직업탐구",
+        ],
       },
     ],
     []
@@ -45,7 +54,7 @@ const Table = () => {
             <td>
               {item.value.map((val, i) => (
                 <label key={i} id="" className="flex_row">
-                  <input type="checkbox" name={`${item.title}`}/>
+                  <input type="checkbox" name={`${item.title}`} />
                   <p>{val}</p>
                 </label>
               ))}

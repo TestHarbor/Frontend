@@ -1,15 +1,15 @@
 //import
 import { useState } from 'react';
 //assets
-import Searcrh from './Search';
-import Logo from '../assets/LOGO.svg'
+import Searcrh from '../../components/PC/Search';
+import Logo from '../../assets/LOGO.svg'
 //styles
-import style from '../styles/Header.module.scss'
-import '../styles/Flex.scss'
+import style from '../../styles/Header.module.scss'
+import '../../styles/Flex.scss'
 //hooks
-import useIsLoggedIn from '../hooks/useIsLoggedIn'
+import useIsLoggedIn from '../../hooks/useIsLoggedIn'
 //components
-import Auth from '../components/Auth';
+import Auth from '../../components/Auth';
 const Header: React.FC = () => {
     const isLogin = useIsLoggedIn();
     const [authOpen, setAuthOpen] = useState<boolean>(false)

@@ -34,3 +34,35 @@ $orange: #F78736;
         @include tagbox
     }
 }
+@media (max-width: 800px) {
+    .container {
+        margin: 0 10px;
+
+        .title {
+            width: 100%;
+            gap: 10px;
+            color: $orange;
+
+            p {
+                white-space: nowrap;
+                font-weight: 700;
+            }
+        }
+        .itembox {
+            gap: 1vw;
+            margin: 10px 0;
+        }
+        .item {
+            cursor: pointer;
+        }
+        hr {
+            width: 90%;
+            height: 1px; 
+            border: none;
+            border-top: 1px solid $orange;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
