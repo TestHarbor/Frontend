@@ -3,7 +3,7 @@
 import "../styles/Flex.scss";
 import style from "../styles/Detail.module.scss";
 //assets
-import test from "../assets/images/시험지.png";
+import test from "../assets/images/시험지.png";
 
 const Data = {
   "파일 유형": "PDF",
@@ -44,9 +44,7 @@ const Detail = () => {
             </div>
             <div className={`flex_row`}>
               <span>1학년</span>
-              <p className={style.title}>
-                2022년 1학년 1학기 중간고사 수학 I 시험지
-              </p>
+              <p className={style.title}>2022년 1학년 1학기 중간고사 수학 I 시험지</p>
             </div>
             <Table />
           </div>
