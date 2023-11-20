@@ -41,13 +41,8 @@ const Auth: React.FC<AuthProps> = ({ closeModal }) => {
     >
       <div className={`flex_row ${style.container}`}>
         <div className={`flex_column `}>
-          <div className={style.both}>
-          <p>
-            로그인하여
-          </p>
+          <p>로그인하여</p>
           <p>필요한 시험지를 찾아보세요.</p>
-          </div>
-          
           <div className={`flex_row ${style.button_container}`}>
             <div>
               <img src={googleIcon} alt="google" />

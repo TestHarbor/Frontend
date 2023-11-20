@@ -9,19 +9,19 @@ $orange: #F78736;
 
     p {
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 700;
         color: $font_color;
         cursor: pointer;
     }
 }
 .nav_act {
     border-bottom: 2px solid $font_color;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 @media (max-width: 800px) {
     .nav_container{
         margin-top: 20px;
-        padding: 5px 10px;
+        padding: 5px 30px;
         p {
             font-size: 30px;
             color: #D9D9D9;

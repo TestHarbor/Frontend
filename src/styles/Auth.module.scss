@@ -23,7 +23,7 @@
         gap: 5px;
     }
     div {
-        gap: 20px;
+        gap: 10px;
     }
     p {
         font-size: 30px;
@@ -31,8 +31,8 @@
     }
 }
 .button_container {
-    width:100%;
-    height: 10%;
+    width: 25em;
+    height: 50px;
     justify-content: center;
     align-items: center;
     background-color: rgba(217, 217, 217, 0.5);
@@ -40,15 +40,14 @@
     cursor: pointer;
 
     div {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
     img {
         @extend div
     }
     p {
-        font-size: 20px;
-        line-height: 36px;
+        font-size: 25px;
         font-weight: 800;
     }
 }
@@ -57,7 +56,7 @@
         width: 60vw;
         height: 20vh;
         div {
-            gap: 20px;
+            gap: 5px;
         }
         p {
             font-size: 18px;
@@ -66,7 +65,7 @@
     }
     .button_container {
         width: 50vw;
-        height: 5vw;
+        height: 2em;
         justify-content: center;
         align-items: center;
         background-color: rgba(217, 217, 217, 0.5);
@@ -74,14 +73,14 @@
         cursor: pointer;
     
         div {
-            width: 3vw;
-            height: 3vw;
+            width: 1em;
+            height: 1em;
         }
         img {
             @extend div
         }
         p {
-            font-size: 2vw;
+            font-size: 1em;
             line-height: 36px;
             font-weight: 800;
         }

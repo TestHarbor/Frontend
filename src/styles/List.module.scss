@@ -1,9 +1,11 @@
 $orange: #F78736;
 @mixin tagbox {
-    padding: 3px;
+    padding: 3px 8px;
     border: 0.5px solid #bababa;
     p {
-        font-size: 10px;
+        font-size: 8px;
+        font-weight: bold;
+        color: #5e5e5e;
     }
 }
 .container {
@@ -36,9 +38,10 @@ $orange: #F78736;
 }
 @media (max-width: 800px) {
     .container {
-        margin: 0 10px;
+        margin: 0 30px;
 
         .title {
+            align-items: center;
             width: 100%;
             gap: 10px;
             color: $orange;

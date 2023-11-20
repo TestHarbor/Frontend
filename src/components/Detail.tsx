@@ -8,8 +8,8 @@ import test from "../assets/images/시험지.png";
 const Data = {
   "파일 유형": "PDF",
   "학년 / 학기": "1학년/1학기 중간",
-  과목: "수학",
-  종류: "시험지",
+  "과목": "수학",
+  "종류": "시험지",
 };
 
 export const Table = () => {
@@ -42,9 +42,9 @@ const Detail = () => {
               <p>{Data.과목}</p>
               <p>1학기 중간</p>
             </div>
-            <div className={`flex_row`}>
+            <div className={`flex_row ${style.title}`}>
               <span>1학년</span>
-              <p className={style.title}>2022년 1학년 1학기 중간고사 수학 I 시험지</p>
+              <p>2022년 1학년 1학기 중간고사 수학 I 시험지</p>
             </div>
             <Table />
           </div>
